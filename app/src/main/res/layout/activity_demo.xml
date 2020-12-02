@@ -1,9 +1,168 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/demoRoot"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#131415"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="16dp"
     tools:context=".DemoActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="RotationDownUp"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <studio.zewei.willy.animationratingbar.AnimationRatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:iconAnimationMode="rotationDownUp"
+        app:iconSize="24dp"
+        app:iconSpacingBottom="10dp"
+        app:iconSpacingTop="10dp"
+        app:isIndicatorBar="true"
+        app:numStars="10"
+        app:rating="3.5" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="4dp"
+        android:text="ZoomDownUp"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <studio.zewei.willy.animationratingbar.AnimationRatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:iconAnimationMode="zoomDownUp"
+        app:iconSize="24dp"
+        app:iconSpacingBottom="8dp"
+        app:iconSpacingTop="16dp"
+        app:iconSpacingStart="8dp"
+        app:iconSpacingEnd="8dp"
+        app:isIndicatorBar="true"
+        app:numStars="8"
+        app:rating="4.5" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="4dp"
+        android:text="ShakeJumpUp"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <studio.zewei.willy.animationratingbar.AnimationRatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:iconAnimationMode="shakeJumpUp"
+        app:iconSize="24dp"
+        app:iconSpacingBottom="10dp"
+        app:iconSpacingTop="10dp"
+        app:isIndicatorBar="true"
+        app:numStars="10"
+        app:rating="4.5" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="4dp"
+        android:text="ShakeZoomDownUp"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <studio.zewei.willy.animationratingbar.AnimationRatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:iconAnimationMode="shakeZoomDownUp"
+        app:iconSize="24dp"
+        app:iconSpacingBottom="8dp"
+        app:iconSpacingTop="16dp"
+        app:iconSpacingEnd="8dp"
+        app:iconSpacingStart="8dp"
+        app:isIndicatorBar="true"
+        app:numStars="7"
+        app:rating="5.5" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="4dp"
+        android:text="TurnRoundJumpUp"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <studio.zewei.willy.animationratingbar.AnimationRatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:iconAnimationMode="turnRoundJumpUp"
+        app:iconSize="24dp"
+        app:iconSpacingBottom="10dp"
+        app:iconSpacingTop="10dp"
+        app:isIndicatorBar="true"
+        app:numStars="10"
+        app:rating="6.5" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="4dp"
+        android:text="TurnRoundZoom"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <studio.zewei.willy.animationratingbar.AnimationRatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:iconAnimationMode="turnRoundZoom"
+        app:iconSize="24dp"
+        app:iconSpacingBottom="8dp"
+        app:iconSpacingTop="16dp"
+        app:iconSpacingEnd="8dp"
+        app:iconSpacingStart="8dp"
+        app:isIndicatorBar="true"
+        app:numStars="7"
+        app:rating="5.5" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="4dp"
+        android:text="TurnRoundZoomJumpUp"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <studio.zewei.willy.animationratingbar.AnimationRatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:iconAnimationMode="turnRoundZoomJumpUp"
+        app:iconSize="24dp"
+        app:iconSpacingBottom="8dp"
+        app:iconSpacingTop="16dp"
+        app:iconSpacingEnd="8dp"
+        app:iconSpacingStart="8dp"
+        app:isIndicatorBar="true"
+        app:numStars="8"
+        app:rating="4.5" />
+
+</LinearLayout>
